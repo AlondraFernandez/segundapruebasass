@@ -4,8 +4,7 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
-.container-boton {
+main .container-boton {
   position: fixed;
   z-index: 999;
   bottom: 20px;
@@ -13,21 +12,13 @@ main {
   transition: ease 0.3s;
   animation: efecto 1.2s infinite;
 }
-
-.container-boton:hover {
+main .boton {
+  transition: ease 1s;
+}
+main:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
-
-.boton {
-  transition: ease 1s;
-}
-
-.container-carrusel {
-  height: 500px;
-  width: 500px;
-}
-
 @keyframes efecto {
   0% {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
@@ -36,13 +27,15 @@ main {
     box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
   }
 }
-h1 {
-  color: white;
+main .container-carrusel {
+  height: 500px;
+  width: 500px;
+}
+main .container-carrusel h1 {
   font-family: "Pacifico", cursive;
   text-align: center;
 }
-
-.main_cont {
+main .container-carrusel .main_cont {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr;
@@ -51,11 +44,9 @@ h1 {
   justify-content: center;
   text-align: center;
 }
-
-.main_cont h1 {
+main .container-carrusel .main_cont h1 {
   color: black;
 }
-
-.fondo {
+main .container-carrusel .fondo {
   background-color: rgba(255, 174, 0, 0.897);
 }/*# sourceMappingURL=main.css.map */
