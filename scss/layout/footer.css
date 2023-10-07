@@ -1,0 +1,10 @@
+body .container footer {
+  grid-area: footer;
+  height: 100%;
+  list-style: none;
+}
+body .container footer a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}/*# sourceMappingURL=footer.css.map */

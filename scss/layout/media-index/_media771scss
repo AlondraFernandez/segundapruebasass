@@ -1,0 +1,6 @@
+@media(max-width:770px){
+    .container-carrusel{
+        height: 400px;
+        width: 400px;
+    }
+}
