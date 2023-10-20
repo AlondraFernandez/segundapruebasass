@@ -1,0 +1,8 @@
+@mixin h4 ($color) {
+    font-weight: 500;
+    text-decoration: none;
+    color: #f70101;
+}
+h4{
+    @include h4(red);
+}
